@@ -198,7 +198,7 @@ class Bühne {
     for (index in this.erscheinen) {
       this.erscheinen[index].display = "block";
     }
-    document.getElementById("h2").innerHTML = "Ihr Score berägt: <br><br>"+score;
+    document.getElementById("h2").innerHTML = "Ihr Score beträgt: <br><br>"+score;
     this.change_bg("images/background_n1_blur.png")
   }
 }
