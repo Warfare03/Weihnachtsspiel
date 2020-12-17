@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background-image: url("images/background_n1.png");
+  background-size: cover;
+}
+
+#Schlitten {
+  width: 500px;
+  height: 200px;
+  transform: scaleX(-1);
+}
+
+#Grantelbart {
+  width: 100px;
+  height: 200px;
+}
+
+#Schneeball {
+  width: 50px;
+  height: 50px;
+  transform: scale(0);
+}
+
+#Leben,#Score {
+  position: absolute;
+  top: 10px;
+  font-size: 20px;
+  color: white;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Arial";
+  font-size: 80px;
+  text-decoration: underline;
+  text-shadow: 10px 10px 10px black;
+
+}
+h2 {
+  text-align: center;
+  color: white;
+  font-family: "Arial";
+  font-size: 60px;
+  margin-top: 5%;
+  text-shadow: 10px 10px 10px black;
+
+}
+#bttn_container{
+  margin: 10% auto;
+  height: 60px;
+  width: 400px;
+  box-shadow: 10px 20px 40px black;
+}
+button{
+  height: 60px;
+  width: 400px;
+  background: none;
+  color: white;
+  font-size: 40px;
+}
+button:hover{
+  background-color: rgba(255,255,255,0.8);
+  color: black;
+  cursor: pointer;
+}

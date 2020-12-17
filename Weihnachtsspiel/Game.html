@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <meta charset="utf-8" />
+
+  <title>Weihnachtsspiel</title>
+
+  <link href="Style_game.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+  <p id="Leben" style="position:absolute;top:10px;left:10px">Leben: 3</p>
+  <p id="Score" style="position:absolute;top:10px;left:100px">Score: 0</p>
+  <img id="Schlitten" src="images/Schlitten_n1.png" style="position:absolute;top:180px;left:200px">
+  <img id="Grantelbart" src="images/grantelbart_stand.png" style="position:absolute;top:300px;left:88%">
+  <img id="Schneeball" src="images/Schneeball.png" style="position:absolute;top:200px;left:89.5%">
+  <h1 id="h1" style="display:none;">Game Over</h1>
+  <h2 id="h2" style="display:none;">Ihr Score beträgt: <h2>
+  <div id="bttn_container" style="display:none;">
+  <button id="button" onclick="window.location.href='Game.html'" style="display:none;">erneut versuchen</button>
+
+  <script type="text/Javascript" src="Javascript_game.js"></script>
+</body>
+
+</html>
